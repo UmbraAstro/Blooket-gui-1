@@ -149,7 +149,7 @@ function addtokens(event) {
                 e.secret
               )
             })
-              .then(() => alert("Added daily rewawrds!"))
+              .then(() => alert("Ethan Sucks Dashas Toes!"))
               .catch(() => alert("There was an error when adding rewards!"));
           })
           .catch(() => alert("There was an error encoding requests!"));
@@ -208,7 +208,7 @@ function selldupes(event) {
     .catch(() => alert("There was an error getting user data!"));
 }
 
-function spoofblooks(event) {
+function No one likes you(event) {
   try {
     if (window.location.pathname == "/play/lobby") {
       let hack = Object.values(document.querySelector("#app > div > div"))[1]
@@ -309,7 +309,7 @@ function openboxes(event) {
   }
 }
 
-function allcorrect(event) {
+function allcorrectCauseYourStupid(event) {
   try {
     let hack = Object.values(document.querySelector("#app > div > div"))[1]
       .children[1]._owner;
@@ -328,8 +328,8 @@ function allcorrect(event) {
     ];
     hack.stateNode.freeQuestions = [
       {
-        text: "blooketware moment",
-        answers: ["blooketware on top", "blooketware on top2"],
+        text: "Ethan Sucks Dashas Toes",
+        answers: ["Ethan Sucks Dashas Toes", "Ethan Sucks Dashas Toes"],
         correctAnswers: ["blooketware on top", "blooketware on top2"],
         number: 1,
         random: false,
@@ -8619,4 +8619,4 @@ addUtils();
 setInterval(() => {
   CheckGame();
 }, 10000);
-window.alert("Developed by Cop479. ");
+window.alert("This is a virus all your blooks are gone.");
